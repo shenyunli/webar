@@ -1,7 +1,7 @@
-import * as THREE from 'three';
-import {RGBELoader} from "three/examples/jsm/loaders/RGBELoader";
-import {ARButton} from "three/examples/jsm/webxr/ARButton";
-import {XREstimatedLight} from "three/examples/jsm/webxr/XREstimatedLight";
+import * as THREE from '../../libs/build/three.min';
+import {RGBELoader} from "../../libs/examples/jsm/loaders/RGBELoader";
+import {ARButton} from "../../libs/examples/jsm/webxr/ARButton";
+import {XREstimatedLight} from "../../libs/examples/jsm/webxr/XREstimatedLight";
 
 let camera, scene, renderer
 let controller
